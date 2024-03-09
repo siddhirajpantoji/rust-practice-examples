@@ -18,7 +18,7 @@ pub fn calculate_fibonacci(no_of_elements:i32){
 
 pub fn accept_input(prompt:String)-> String{
     println!("Inside Accept input method ");
-    println!("{prompt}");
+    println!("{prompt}:");
     let mut input_str : String = String::new();
     io::stdin()
     .read_line(&mut input_str)
