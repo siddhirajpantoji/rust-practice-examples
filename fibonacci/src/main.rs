@@ -8,4 +8,5 @@ fn main() {
         Err(_) => panic!("Problem while parsing ")
     };
     fibonacci::calculate_fibonacci(no_of_elements_for_input);
+    // Recursion not possible as scope is tightly bound to a function. Need to learn Scope first 
 }
